@@ -1,18 +1,29 @@
-#import "Portada/portada-template.typ": portada
+#import "portada-template.typ": portada
+
+#let integrantes = (
+  "Conda Trujillo José Manuel",
+  "Delgado Vázquez Dulce Ivonne",
+  "Flores Roa Jorge Alejandro",
+  "Gonzalez Calzada Maximiliano",
+  "Pérez Acuña Jorge Ysmael",
+  "Ramírez García Iossef Alejandro",
+  "Salazar Carmona Linette",
+  "Teodoro Rosales Mauricio"
+)
 
 #portada(
   "CARRERA",
   "MATERIA",
   "PRÁCTICA 11",
   "SECUENCIA",
-  "ALUMNO",
+  "INTEGRANTES",
   "PROFESORA",
   "FECHA",
   "Ingeniería en informática",
   "Fundamentos de Inteligencia Artificial",
-  "Práctica 11 — Kaggle",
+  "Kaggle - Equipo 1",
   "6NM62",
-  "Gonzalez Calzada Maximiliano",
+  integrantes,
   "Gonzalez Arroyo Lilia",
   "10 - 11 - 2025",
 )
@@ -109,25 +120,3 @@ Media: 3.9127272727272726
 Promedio: 3.9127272727272726
 Mediana: 4.0
 ```
-
-== Gráficas generadas
-#figure(
-  image("media/grafica1.png", width: 50%),
-  caption: [
-    _Gráfica generada_ representación de la información.
-  ],
-)<grafica1>
-
-#figure(
-  image("media/rating.png", width: 50%),
-  caption: [
-    _Gráfica generada_ representación de la información.
-  ],
-)<grafica2>
-
-#figure(
-  image("media/rating_category.png", width: 50%),
-  caption: [
-    _Gráfica generada_ representación de la información.
-  ],
-)<grafica3>
