@@ -2,26 +2,13 @@
 
 **Materia:** Fundamentos de Inteligencia Artificial  
 **Práctica:** 11 - Kaggle Equipo 1  
-**Fecha:** 10 de Noviembre, 2025
+**Fecha:** 24 de Noviembre, 2025
 
 ## 📄 Descripción del Proyecto
 
 Este proyecto realiza un **Análisis Exploratorio de Datos (EDA)** sobre un conjunto de datos de Spotify que contiene **586,672 canciones** publicadas entre los años 1920 y 2020.
 
 El objetivo principal es identificar tendencias históricas, patrones en las características musicales (como energía, valencia y tempo) y la evolución de la popularidad a lo largo de un siglo, utilizando herramientas estadísticas y visualización de datos.
-
-## 👥 Integrantes (Equipo 1)
-
-* **Conda Trujillo José Manuel**
-* **Delgado Vázquez Dulce Ivonne**
-* **Flores Roa Jorge Alejandro**
-* **Gonzalez Calzada Maximiliano**
-* **Pérez Acuña Jorge Ysmael**
-* **Ramírez García Iossef Alejandro**
-* **Salazar Carmona Linette**
-* **Teodoro Rosales Mauricio**
-
-**Profesora:** Gonzalez Arroyo Lilia
 
 ---
 
