@@ -234,12 +234,24 @@ un incremento significativo entre los años 60 y 80. A partir de la década de l
 de canciones publicadas crece exponencialmente, coincidiendo con el surgimiento de la
 digitalización y la democratización de la producción musical.
 
-
+#figure(
+  image("media/grafica1.png", width: 50%),
+  caption: [
+    _Gráfica generada_ Producción musical por año
+  ],
+)<grafica1>
 
 == Popularidad promedio por década
 La popularidad promedio aumenta de forma sostenida a lo largo de las décadas. Las
 canciones de las décadas de 2000 y 2010 presentan los valores más altos, lo que refleja el
 impacto de las plataformas digitales, algoritmos de recomendación y mayor alcance global.
+
+#figure(
+  image("media/grafica2.png", width: 50%),
+  caption: [
+    _Gráfica generada_ Popularidad promedio por década
+  ],
+)<grafica2>
 
 == Correlaciones musicales
 El mapa de calor evidencia relaciones entre variables:
@@ -247,6 +259,13 @@ El mapa de calor evidencia relaciones entre variables:
 - Energy y tempo: correlación positiva; las canciones rápidas tienden a ser más energéticas.  
 - Valence y danceability: correlación positiva; las canciones alegres suelen ser más bailables.  
 - Popularity: no presenta una correlación fuerte con ninguna variable individual, lo que sugiere que la popularidad está influida por factores externos como promociones, tendencias o artistas.
+
+#figure(
+  image("media/grafica3.png", width: 50%),
+  caption: [
+    _Gráfica generada_ Correlaciones musicales
+  ],
+)<grafica3>
 
 = Conclusiones
 
@@ -270,7 +289,7 @@ Basaldúa, P. (2022). Guía de presentación para análisis de datos.
 
 Dataset: Spotify Tracks 1920–2020, Kaggle. Disponible en:
 #link("https://www.kaggle.com/datasets/javivaleiras/spotify-tracks-19202020")[
-  *kaggle*
+  *Kaggle*
 ]
 
 Código: Google Colab, Colab. Disponible en:
